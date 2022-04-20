@@ -5,7 +5,7 @@ public class Soma {
        //float (4 bytes) ou double (8 bytes)
        double n1, n2, resp;
 
-       //ENTRQADA DE DADOS
+       //ENTRADA DE DADOS
        //Classes empacotadoras
        //int: Intenger
        //double: Double
