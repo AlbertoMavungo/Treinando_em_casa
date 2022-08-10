@@ -1,0 +1,27 @@
+public class IfEncadeado{
+    public static void main(String[] X){
+       //Nome completamente qualificado da classe
+       //como não fizemos o import do java.util.Scanner, estamos tendo que colocar ele toda hora
+       //mas estamos fazendo assim só para aprender
+       java.util.Scanner leitor = 
+       new java.util.Scanner (System.in);
+       
+       //long um tipo de variável que vc pode usar para representar tipos inteiros também, só que vc gasta 8 bytes
+       long nota;
+       System.out.printf("Qual a nota?\n");
+       nota = leitor.nextLong();
+       if (nota >= 90){
+           System.out.println("A");
+       }
+       else if (nota >= 80){
+          System.out.println("B");
+       }   
+       else if (nota >= 70){
+        System.out.println("C");
+       }  
+       else{
+         System.out.println("R");
+        leitor.close();
+      }
+    }
+}
